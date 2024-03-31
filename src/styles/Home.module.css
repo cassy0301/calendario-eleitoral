@@ -1,0 +1,194 @@
+.main {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sectionTitle {
+  background-color: rgb(90, 131, 192);
+  text-align: center;
+  border-radius: 30px;
+  margin: 50px 50px 0 50px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  padding: 10px 0 0 0px;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 0 10px 0px;
+  color: white;
+}
+
+.section {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+.intro {
+  text-align: justify;
+  font-weight: 500;
+}
+
+.texto {
+  margin-top: 30px;
+  text-align: justify;
+  font-weight: 500;
+  margin-bottom: 10px;
+
+}
+.deputado {
+  margin-top: 50px;
+  text-align: center;
+  list-style-type: none;
+  font-weight: 500;
+}
+
+.nome {
+  font-size: 20px;
+}
+
+.resolucao {
+  text-align: center;
+  margin-top: 50px;
+}
+.resolucao a {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: small;
+  color: black;
+}
+
+.ano {
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  color: rgb(90, 131, 192);
+  font-style: italic;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.cardsContainer {
+  border: 1.5px solid black;
+  text-align: center;
+  width: fit-content;
+  margin: 7px;
+  padding: 0px;
+  display: flex;
+}
+
+.cardTitle {
+  background-color: rgb(90, 131, 192);
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  border: 0.5px solid black;
+  width: 100%;
+  margin-bottom: 0px;
+  
+}
+
+.cardSubtitle {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  background-color: rgba(90, 131, 192, 0.473);
+  padding: 3px;
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.cardContent button{
+  padding: 10px;
+  margin: 0;
+  border: none;
+  width: 38px;
+  height: 38px;
+}
+.fileira1 {
+  text-align: right;
+}
+
+.fileira5 {
+  text-align: left;
+}
+
+.fileira {
+  justify-content: space-between;
+}
+
+.especial {
+  font-size: 10px;
+  font-style: italic;
+  background-color: transparent;
+}
+
+.n {
+  background-color: transparent;
+}
+.data {
+  background-color: rgb(90, 131, 192);
+  cursor: pointer;
+
+  border-radius: 90px;
+}
+
+.meses {
+  margin-top: 300px;
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+
+.mes h1 {
+  color: rgb(90, 131, 192);
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 200px;
+
+}
+
+.mes p {
+  margin-bottom: 50px;
+  margin-left: 10px;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+.mes ol li{
+  margin-bottom: 15px;
+}
+
+.dia {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.sec {
+  scroll-margin-top: 100px; 
+  margin-bottom: 50px;
+}
+
+.sec div {
+  margin-top: 7px;
+}
+.sec ol li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+}

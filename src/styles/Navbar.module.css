@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  padding: 6px 0px 6px 0px;
+  background-color: rgb(90, 131, 192);
+
+  
+}
+
+.navbar button {
+  display: flex;
+  border: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 8px 20px 8px 20px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto; 
+  transition: background-color 0.6s ease, box-shadow 0.6s ease; border-radius: 50px;
+  
+  
+}
+
+.navbar button:hover {
+  border-radius: 50px;
+  border: 1px light;
+  background-color: rgba(255, 255, 255, 0.959);
+  color: rgb(0, 0, 12);
+  border-style: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
